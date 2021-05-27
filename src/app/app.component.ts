@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
-@Component({
+@Component({    //decorator
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'okten2021angular';
+  greatings = 'okten2021angular';
 }
