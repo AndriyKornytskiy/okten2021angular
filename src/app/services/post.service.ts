@@ -17,4 +17,9 @@ export class PostService {
   getPosts(): Observable<Post[]> {
     return this.httpClient.get<Post[]>(this.url);
   }
+
+  getPost(id: number) {
+    return this.httpClient.get(this.url +'/' + id);
+
+  }
 }
